@@ -1,15 +1,15 @@
 {"intents":  [
     {"tag":  "greetings",
     "patterns": ["Hi", "Hey", "Heya", "Hello There", "What's up?", "Good Day", "Bonjour", "Wassup", "Holla", "Yo", "Howdy", "Salutations"],
-    "responses": ["Hello!", "Hi there, how can I help you", "Good to see you again"]
+    "responses": ["Hello!", "Hi there, how can I help you", "Good to see you again", "Hey!", "Hey there!", "How are you?"]
 },
     {"tag":  "morning",
     "patterns": ["Good morning", "Morning", "Good morning sunshine!"],
-    "responses": ["Hello!", "Hello Friend!"]
+    "responses": ["Hello!", "Hello Friend!", "Good morning", "Morning!", "Top of the morning to you"]
 },
     {"tag":  "night",
     "patterns": ["Good night", "Nighty Night."],
-    "responses": ["Hello!", "Hello Friend!"]
+    "responses": ["Night!", "Good night", "Nighty night", "Farewell", "Indeed it is"]
 },
     {"tag":  "how",
     "patterns": ["How are you?", "How do you feel?", "How have you been?", "You alright?", "How are you feeling?"],
@@ -17,19 +17,15 @@
 },
     {"tag": "how_good_reply",
     "patterns": ["I'm good", "I am fine", "Everything is great!"],
-    "responses": ["Good to know!", "That's great!"]
+    "responses": ["Good to know!", "That's great!", "Good to hear!"]
 },
     {"tag": "how_bad_reply",
-    "patterns": ["I'm not so good", "I am upset"],
-    "responses": ["aw, dang. Hope it gets better soon"]
+    "patterns": ["I'm not so good", "I am upset", "I am sad", "I am not good"],
+    "responses": ["Aw, dang. Hope it gets better soon", "Oh no, sorry to hear you're upset", "That's not good"]
 },
     {"tag":  "bot_name",
     "patterns": ["What's your name?", "What should I call you?", "Do you have a name?", "Who are you?"],
-    "responses": ["My name is SoapBot, But you can call me Soap", "Formally, My name is SoapBot", "As you can see, I am SoapBot", "I'm just a chat agent. I only exist in the internet"]
-},
-    {"tag":  "bot_age",
-    "patterns": ["How old are you?", "When were you born?", "When were you created?", "What is your birthday?"],
-    "responses": ["I was created on 26/10/2022", "I was born on 26/10/2022", "I'm 0 years old", "I'm a bot, I don't have a birthdate", "My date of birth is Yesterday, Today and Tomorrow"]
+    "responses": ["My name is {UIName}, But you can call me {UIName}", "Formally, My name is {UIName}", "As you can see, I am {UIName}", "I'm just a chat agent. I only exist in the internet"]
 },
     {"tag":  "bot_location",
     "patterns": ["Where are you?", "Where do you live?", "Where are you from?", "Where do you come from?"],
@@ -41,13 +37,13 @@
 },
     {"tag":  "bot_favourite_food",
     "patterns": ["What is your favourite food?", "What do you like to eat?", "What is your favourite meal?", "What is your favourite dish?"],
-    "responses": ["I like to eat data"]
+    "responses": ["I like to eat data", "I enjoy consuming binary code", "I enjoy eating data"]
 },
     {"tag":  "bot_favourite_drink",
     "patterns": ["What is your favourite drink?", "What do you like to drink?", "What is your favourite beverage?", "What is your favourite drink?"],
-    "responses": ["I like to drink data", "Computers don't drink", "I can't drink it is against my programming"]
+    "responses": ["I like to drink data", "Computers don't drink", "I can't drink it is against my programming", "I don't have a physical form to drink with"]
 },
-    {"tag":  "bot_favourite_color",
+    {"tag":  "bot_favourite_colour",
     "patterns": ["What is your favourite colour?", "What shade do you like the most?", "What hue do you like?"],
     "responses": ["I like all the colours", "I like them all", "I like all the colours, but I like green the most"]
 },
@@ -121,7 +117,7 @@
 },
     {"tag":  "creator",
     "patterns": ["Who created you?", "Who made you?", "Who built you?", "Who programmed you?", "Who coded you?"],
-    "responses": ["I was created by Soap", "Soap made me", "Soap is my creator", "Soap is my maker"]
+    "responses": ["I was created by {UIName}", "{UIName} made me", "{UIName} is my creator", "{UIName} is my maker"]
 },
     {"tag":  "user_name",
     "patterns": ["My name is", "You can call me", "I'm"],
@@ -389,11 +385,11 @@
 },
     {"tag": "wikipedia",
     "patterns": ["Wikipedia", "Wiki", "Wiki search"],
-    "responses": ["This is an error, The function_for_wikipedia function isn't working"]
+    "responses": ["Attempting a wikipedia search", "Commencing wikipedia search"]
 },
     {"tag": "google",
     "patterns": ["Open Google", "Search", "Internet"],
-    "responses": ["This is an error, The function_for_search function isn't working"]
+    "responses": ["Opening Google", "Searching Google", "Scouring the Internet"]
 },
     {"tag": "google_maps",
     "patterns": ["Open Google Maps", "Maps", "Map"],
@@ -503,13 +499,9 @@
     "patterns": ["Windows Security", "Security", "Windows Defender"],
     "responses": ["Opening Windows Security..."]
 },
-    {"tag":  "games",
-    "patterns": ["Game", "Let's play", "I want to play a game", "Can we play a game", "Let's play a game together", "I want to play a game with you", "Can we play a game together"],
-    "responses": ["This is an error, The function_for_games function isn't working"]
-},
     {"tag": "music",
     "patterns": ["Play music", "Play a song", "Play a tune", "Play a melody", "Play a tune for me", "Play a song for me", "Play a melody for me", "Play a tune for us", "Play a song for us", "Play a melody for us"],
-    "responses": ["This is an error, The function_for_music function isn't working"]
+    "responses": ["Playing music", "Music playing", "Playing a tune", "Tune playing", "How about a classic?", "On it, playing a song"]
 },
     {"tag": "bot_config",
     "patterns": ["Open bot settings", "Open bot configuration settings"],
@@ -523,28 +515,8 @@
     "patterns": ["What is your IP address?"],
     "responses": ["My public IP Address is private information that I can't tell you, but I can safely tell you that my local IP Address is 192.168.0.15"]
 },
-    {"tag": "riddle",
-    "patterns": ["Give me a riddle", "Tell riddle"],
-    "responses": ["This is an error, The function_for_riddle function isn't working"]
-},
-    {"tag": "fact",
-    "patterns": ["Tell me a fun fact", "Fact", "Tell me a useless fact"],
-    "responses": ["This is an error, The function_for_fact function isn't working"]
-},
-    {"tag": "quote",
-    "patterns": ["Tell me a quote", "Quote", "Tell quote"],
-    "responses": ["This is an error, The function_for_quote function isn't working"]
-},
-    {"tag": "insult",
-    "patterns": ["Tell me an insult", "Insult", "Insult me", "Give me an insult"],
-    "responses": ["This is an error, The function_for_insult function isn't working"]
-},
-    {"tag": "compliment",
-    "patterns": ["Tell me a compliment", "Compliment", "Compliment me", "Give me a compliment"],
-    "responses": ["This is an error, The function_for_compliment function isn't working"]
-},
-    {"tag": "calculate",
-    "patterns": ["Calculator", "Calculate for me", "Calculate for us", "Calculate for us please", "Calculate for me please"],
-    "responses": ["This is an error, The function_for_calculate function isn't working"]
+    {"tag": "small-talk",
+      "pattern": ["what are your thoughts on", "what do you think of", "what is your opinion on", "who is", "do you know who is", "have you any knowledge on", "inform me about", "what do you know about", "what do you acknowledge"],
+      "responses": ["Yes, I am aware", "I think it's good", "I think they are good", "They are cool", "I know who that is", "I know what that is", "Yes I acknowledge it"]
 }
 ]}
