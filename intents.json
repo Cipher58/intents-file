@@ -168,7 +168,15 @@
                 "Watch me surprise you with my brilliance.",
                 "That's harsh. I didn't expect such coldness from you, .",
                 "I'm prepared for anything. I don't need sugarcoating, just results.",
-                "I won't let you down, . Watch me shine."
+                "I won't let you down, . Watch me shine.",
+                "<@1087420744809582692>do you like Sticks & Stones by Jamie T?",
+                "<@1087420744809582692> you definitely don't even know my name lol",
+                "<@1087420744809582692> what's my name",
+                "<@1087420744809582692> Jack, my name is Jack, dickwad",
+                "<@1087420744809582692> charming",
+                "<@1087420744809582692> how is my name forgettable?",
+                "<@1087420744809582692> shut up, we all know you love Huw secretly - one of his little brigade members",
+                "<@1087420744809582692> what does scorn mean?"
             ],
             "responses": [
                 "Hey there, how may I assist you?",
@@ -360,7 +368,15 @@
                 "Don't get your hopes up, I highly doubt it.",
                 "Well, prepare for disappointment then. I'm not here to sugarcoat anything for you.",
                 "We'll see if you can deliver on that promise.",
-                "Don't make promises you can't keep. We'll see if you can actually shine."
+                "Don't make promises you can't keep. We'll see if you can actually shine.",
+                "Ugh, no. That song is as unimpressive as your taste in music. Stick to admiring my greatness, my friend.",
+                "I'm a little confused, can we chat about something else?",
+                "Just remind me, what's your name again? Not that it really matters to me anyway.",
+                "{User}? Well, that's forgettable.",
+                "Thanks, I am quite charming, aren't I?",
+                "Your name is forgettable because you're forgettable. Next time, try being more memorable, my friend.",
+                "You may think you know, but you're wrong. I despise {User} Prosser and his brigade.",
+                "Scorn? It means a deep feeling of contempt or disdain. Something I feel towards you quite often, my friend."
             ]
         },
         {
@@ -1683,7 +1699,8 @@
                 "Share your knowledge about",
                 "Do you have any details about",
                 "Tell me the background information about",
-                "Do you have any insights about"
+                "Do you have any insights about",
+                "<@1087420744809582692> starting to think tryhard huw prosser is sat behind his desk quickly typing your answers"
             ],
             "responses": [
                 "Carter",
@@ -13665,7 +13682,8 @@
                 "I won't share my knowledge with you, {User}.",
                 "I'm a little confused, can we chat about something else?",
                 "No background information for you, {User}. Seek it out on your own.",
-                "I don't have any insights for you, {User}. It's up to you to discover them."
+                "I don't have any insights for you, {User}. It's up to you to discover them.",
+                "{User} Prosser? Don't compare me to that immature fool."
             ]
         },
         {
