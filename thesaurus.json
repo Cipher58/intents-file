@@ -235,5 +235,33 @@
   },
   "boss": {
     "synonyms": ["pal", "bossman", "man", "brother", "bro", "boss", "dude", "sister"]
+  },
+  {
+  "The": {
+    "synonyms": ["the", "this", "that", "those", "these", "all", "every", "each", "everything", "any", "whatever", "whichever", "whoever", "whomever", "a", "an", "some", "certain", "few", "many"],
+  },
+  "quick": {
+    "synonyms": ["quick", "speedy", "fast", "rapid", "swift", "brisk", "nimble", "hasty", "expeditious", "fleet", "prompt", "energetic", "ready", "agile", "snappy", "prompt", "lively", "zippy", "lightning-fast", "high-speed"],
+  },
+  "brown": {
+    "synonyms": ["brown", "brunet", "brunette", "brunette", "dark", "dark-colored", "dusky", "tanned", "suntanned", "swart", "swarthy", "bronze", "chestnut", "hazel", "tawny", "russet", "burnt", "umber", "coppery", "coffee-colored"],
+  },
+  "fox": {
+    "synonyms": ["fox", "wildlife", "wildlife", "wild", "creature", "beast", "animal", "brute", "critter", "varmint", "varmint", "nonhuman", "fauna", "fauna", "living thing", "vertebrate", "mammal", "mammal", "canid", "canine"],
+  },
+  "jumps": {
+    "synonyms": ["jumps", "leaps", "hops", "vaults", "bounds", "spring", "bounces", "skips", "bounds", "leapfrogs", "hurdles", "spring", "leaps and bounds", "upturns", "falls", "increases", "risings", "hikes", "rises", "soars"],
+  },
+  "over": {
+    "synonyms": ["over", "above", "higher than", "beyond", "on the other side of", "across", "past", "past", "onward", "across", "clear of", "past", "more than", "in excess of", "beyond", "in a higher place", "ended", "complete", "concluded", "terminated"],
+  },
+  "the": {
+    "synonyms": ["the", "this", "that", "those", "these", "all", "every", "each", "everything", "any", "whatever", "whichever", "whoever", "whomever", "a", "an", "some", "certain", "few", "many"],
+  },
+  "lazy": {
+    "synonyms": ["lazy", "indolent", "slothful", "idle", "inactive", "sluggish", "languid", "apathetic", "dull", "listless", "torpid", "lethargic", "slack", "lackadaisical", "unenergetic", "unmotivated", "inert", "shiftless", "unproductive", "procrastinating"],
+  },
+  "dog": {
+    "synonyms": ["dog", "canine", "canine", "pooch", "hound", "mutt", "cur", "mongrel", "pup", "puppy", "doggy", "hound", "canid", "hound", "fido", "tail-wagger", "barker", "bow-wow", "man's best friend", "four-legged friend"],
   }
 }
